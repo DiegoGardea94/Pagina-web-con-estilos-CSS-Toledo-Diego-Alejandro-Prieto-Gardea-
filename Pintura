@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintura favorita</title>
+    <style>
+        body {
+            background-color: #c696f9;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 2px dashed #9500ff;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 3px dashed #9500ff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        ul li {
+            display: inline;
+            margin: 10px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi pintura favorita es "El grito" </h1>
+    </header>
+    <img src="./media/grito.png" alt="El grito" width="400">
+
+    <h2>Descripción</h2>
+    <p>Es una especie de hombre, como un alienigena que esta gritando, con los ojos desorbitados, y al fondo se ve un paisaje con unos colores bastante tristes, como si fuera el fin del mundo, o eso es lo que me transmite a mi.</p>
+
+    <table border="1">
+        <tr>
+            <th>Artista</th>
+            <th>Año</th>
+            <th>Estilo</th>
+        </tr>
+        <tr>
+            <td>Edvard Munch</td>
+            <td>1893</td>
+            <td>Expresionismo</td>
+        </tr>
+    </table>
+
+    <h3>Obras de Edward Munch:</h3>
+    <ol>
+        <li>El beso</li>
+        <li>Melancolía</li>
+        <li>Celos</li>
+        <li>Celos</li>
+        <li>Vampiro </li>
+        <li>Madonna </li>
+        <li>Ansiedad </li>    
+    </ol>
+</body>
+<ul>
+    <li><a href="index.html">Hobbbies</a></li>
+    <li><a href="pelicula.html">Película favorita</a></li>
+    <li><a href="cancion.html">Canción favorita</a></li>
+</ul>
+</nav>
+</html>
