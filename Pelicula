@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Película Favorita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8a3da3;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        p {
+            font-size: 27px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 2px solid #ff00d4;
+        }
+        th, td {
+            padding: 20px;
+            text-align: center;
+        }
+        ul {
+            font-size: 16px;
+        }
+        nav ul {
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #ff00ee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi pelicula favorita es "la vida es bella"</h1>
+    </header>
+    <h2>Sinopsis</h2>
+    <p>es una pelicula sobre un hombre que trata sobre una familia, pero antes de ser familia Guido Orefice" ve a una mujer hermosa llamada "Dora" y se enamora de ella y le enamora de formas bien bonitas pero bueno, pasan los años y tienen un hijo y despues empieza la segunda guerra mundial y como ellos son judios se los llevan a un campo de concentración, donde Guido le hace creer a su hijo "Giosuè" que es un juego de las escondidas para que no vea las crueldades y le dice que el premio será un tanque y asi pasa el tiempo hasta que se acaba la guerra pero los nazis matan a Guido, pero Giosuè se sube un tanque como su papá le había dicho.</p> 
+    <h3>Tráiler</h3>    
+    <video controls>
+        <source src="./media/trailer.mp4" type="video/mp4">
+    </video>     
+
+    <table border="1">
+        <tr>
+            <th>Año</th>
+            <th>Director</th>
+            <th>Género</th>
+            <th>Actores</th>
+        </tr>
+        <tr>
+            <td>1997</td>
+            <td>Roberto Benigni</td>
+            <td>Guerra, Aventura, Comedia cinematográfica, Comedia dramática, Cine romántico</td>
+            <td>Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini</td>
+        </tr>
+    </table>
+
+    <h3>Datos curiosos</h3>
+    <ul>
+        <li> Cuenta con 3 premios Óscar por mejor banda sonora, mejor película extranjera y mejor actor; además de 50 premios internacionales.</li>
+        <li>Está basada en la historia real de Romeo Salmoní; fue uno de los sobrevivientes del Holocausto.</li>
+        <li>El guion original fue publicado al año siguiente del estreno de la película en forma de libro.</li>
+    </ul>
+</body>
+<nav>
+    <ul>
+        <li><a href="index.html">Hobbbies</a></li>
+        <li><a href="pintura.html">Pintura favorita</a></li>
+        <li><a href="cancion.html">Canción favorita</a></li>
+    </ul>
+</nav>
+</html>
