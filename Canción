@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canción favorita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c9ffbb; 
+            margin: 0;
+            padding: 20px;
+        }
+        header h1 {
+            color: #000000;
+            font-size: 32px;
+            text-align: center;
+        }
+        h2, h3, h4 {
+            color: #000000;
+            font-size: 24px;
+        }
+        table {
+            width: 100%;
+            border: 24px double black;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        th, td {
+            padding: 10px;
+            border: 2px double #00f2ff;
+        }
+        ul {
+            font-size: 18px;
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #000000;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Las 3 y 33</h1>
+    </header>
+    <h2>Mi canción</h2>
+    <audio controls>
+        <source src="./media/Homer el Mero Mero - Las 3 Y 33 (Video Lyric).mp3" type="audio/mp3">
+    </audio>
+
+    <table border="1">
+        <tr>
+            <th>Artista</th>
+            <th>Álbum</th>
+            <th>Género</th>
+        </tr>
+        <tr>
+            <td>Homer el mero mero</td>
+            <td>Sencillo</td>
+            <td>Trap Aregentino</td>
+        </tr>
+    </table>
+
+    <h3>Canciones de Homer el mero mero</h3>
+    <ul>
+        <li>Domigo</li>
+        <li>703</li>
+        <li>Estrellas de rock</li>
+        <li>Del infierno me escapé</li>
+        <li>Pensando en verte</li>
+    </ul>
+</body>
+<h4>Enlaces</h4>
+<nav>
+    <ul>
+        <li><a href="index.html">Hobbbies</a></li>
+        <li><a href="pelicula.html">Película favorita</a></li>
+        <li><a href="pintura.html">Pintura favorita</a></li>
+    </ul>
+</nav>
+</html>
