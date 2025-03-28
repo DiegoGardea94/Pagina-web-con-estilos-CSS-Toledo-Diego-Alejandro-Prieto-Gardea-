@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Hobbies</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        header h1 {
+            color: #ff0088;
+            font-style: italic; 
+            text-align: center;
+        }
+        nav {
+            background-color: #3f3f3f;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .cuadrote  {
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+        ol {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Hobbies</h1>
+    </header>
+    
+    <div class="cuadrote">
+        <h2>Yo</h2>
+        <p>me gusta ver anime, escuchar música, salir con mi novia, leer, comer, si me siento motivado me gusta pogramar, comer otra vez, jugar beis y tomar agua </p>
+        
+        <table>
+            <tr>
+                <th>Hobby</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Leer</td>
+                <td>Me gustan los libros de guerra, mis favoritos son dos, el primero se llama "la guerra que salvó mi vida" y el segundo se llama "la guerra que al fin gané", son de la misma autora y es kla historia de una niña con el pie zambo.</td>
+            </tr>
+            <tr>
+                <td>Ver anime</td>
+                <td>Me gusta ver anime de todo tipo, desde romance, aventura, acción, terror, de calabozos, de magia y asi, no tengo favorito aunque uno que lo sigo capitulo tras capitulo es "Danmanchi".</td>
+            </tr>
+            <tr>
+                <td>Escuchar música</td>
+                <td>Escucho musica de todo tipo, de verdad mi playlist es como un chile con queso, aunque ftengo preferidas para ciertas actividdes, por ejemplo en este momento que estoy programando estoy escuchando metal que es lo que casi siempre escucho cuandi programo, cuando manejo me gusta escuchar rap en español y asi, depede la actividad que haga.</td>
+            </tr>
+        </table>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="pelicula.html">Película favorita</a></li>
+            <li><a href="pintura.html">Pintura favorita</a></li>
+            <li><a href="cancion.html">Canción favorita</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>tarea de toledo</p>
+    </footer>
+</body>
+</html>
